@@ -1,0 +1,16 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 1440px;
+}
+
+#container{
+    display: flex;
+    margin: auto;
+    position:relative;
+    background-color:  hsl(216, 50%, 16%);
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
