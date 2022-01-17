@@ -17,6 +17,7 @@ body{
 
 #middle{
     margin:auto;
+    width: 300px;
 }
 img{
     width: 300px;
@@ -27,6 +28,7 @@ div.image{
     
     width: 100%;
     margin: auto;
+    margin-top: 10px;
     
 }   
 
