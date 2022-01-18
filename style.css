@@ -1,7 +1,6 @@
 body{
     background-color: hsl(217, 54%, 11%);
-    width: 1440px;
-    
+    width: 1440px;   
 }
 
 #sec{
@@ -11,20 +10,18 @@ body{
    height: 1000px;
 } 
 #container{
-   
     background-color:  hsl(216, 50%, 16%);
     width: 320px;
     min-height: 600px;
     padding: 15px;
     border-radius: 10px;
-    
 }
 
 #middle{
     margin: auto;
     width: 300px;
 }
-img{
+div.image img{
     width: 300px;
     border-radius: 10px;
 }
@@ -32,9 +29,7 @@ img{
 div.image{
     
     width: 100%;
-    margin: 10px auto 0;
-    
-    
+    margin: 10px auto;
 }   
 
 
@@ -55,4 +50,12 @@ h1{
 
 .txt3{
     color: hsl(215, 51%, 70%);
+}
+
+.name{
+    color:hsl(0, 0%, 100%);
+}
+
+.avatar img{
+    width:50px;
 }
