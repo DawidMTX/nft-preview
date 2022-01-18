@@ -77,10 +77,14 @@ h1{
     width: 300px;
     margin: 20px auto;
     display: flex;
+    padding-top: 10px;
+    border-top: 2px solid hsl(215, 32%, 27%);
+    
 }
 .avatar p{
-    color:hsl(0, 0%, 100%);
+    color:hsl(215, 51%, 70%);
     font-weight: 300;
+    
 }
 
 .avatar img{
