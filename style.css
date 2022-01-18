@@ -33,29 +33,59 @@ div.image{
 }   
 
 
-
 h1{
     color:hsl(0, 0%, 100%);
+    font-weight: 600;
 }
 
 .txt1{
     color:hsl(215, 51%, 70%);
     font-size: 18px;
 }
-
-.txt2{
+.eth{
+    float:left;
+    display: flex;
+}
+.eth p{
     color: hsl(178, 100%, 50%);
-
+    font-weight: 400;
+    
 }
-
-.txt3{
+.eth img{
+    align-self:center;
+    margin:0 5px 0 0;
+}
+.day{
+    display: flex;
+    justify-content: right;
+}
+.day p{
     color: hsl(215, 51%, 70%);
+    font-weight: 400;
 }
+.day img{
+    align-self: center;
+    margin:0 5px 0 0;
+}
+
 
 .name{
     color:hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+.avatar{
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+}
+.avatar p{
+    color:hsl(0, 0%, 100%);
+    font-weight: 300;
 }
 
 .avatar img{
-    width:50px;
+    width: 40px;
+    align-self: center;
+    float: left;
+    border: 1px  hsl(0, 0%, 100%);
 }
