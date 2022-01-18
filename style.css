@@ -1,22 +1,27 @@
 body{
     background-color: hsl(217, 54%, 11%);
     width: 1440px;
+    
 }
 
+#sec{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 1000px;
+} 
 #container{
-    position: relative;
-    display: flex;
-    margin: auto;
+   
     background-color:  hsl(216, 50%, 16%);
     width: 320px;
-    height: 100%;
+    min-height: 600px;
     padding: 15px;
     border-radius: 10px;
     
 }
 
 #middle{
-    margin:auto;
+    margin: auto;
     width: 300px;
 }
 img{
@@ -27,8 +32,8 @@ img{
 div.image{
     
     width: 100%;
-    margin: auto;
-    margin-top: 10px;
+    margin: 10px auto 0;
+    
     
 }   
 
