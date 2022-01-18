@@ -12,7 +12,7 @@ body{
 #container{
     background-color:  hsl(216, 50%, 16%);
     width: 320px;
-    min-height: 600px;
+    min-height: 580px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 1em hsl(216, 50%, 16%);
@@ -37,11 +37,13 @@ div.image{
 h1{
     color:hsl(0, 0%, 100%);
     font-weight: 600;
+    font-family: 'Outfit', sans-serif;
 }
 
 .txt1{
     color:hsl(215, 51%, 70%);
     font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 .eth{
     float:left;
@@ -50,6 +52,7 @@ h1{
 .eth p{
     color: hsl(178, 100%, 50%);
     font-weight: 400;
+    font-family: 'Outfit', sans-serif;
     
 }
 .eth img{
@@ -63,6 +66,7 @@ h1{
 .day p{
     color: hsl(215, 51%, 70%);
     font-weight: 400;
+    font-family: 'Outfit', sans-serif;
 }
 .day img{
     align-self: center;
@@ -73,19 +77,22 @@ h1{
 .name{
     color:hsl(0, 0%, 100%);
     font-weight: 300;
+    margin-left: 5px;
+    
 }
 .avatar{
     width: 300px;
     margin: 20px auto;
     display: flex;
-    padding-top: 10px;
+    padding-top: 15px;
     border-top: 2px solid hsl(215, 32%, 27%);
     
 }
 .avatar p{
     color:hsl(215, 51%, 70%);
     font-weight: 300;
-    
+    margin-left: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .avatar img{
