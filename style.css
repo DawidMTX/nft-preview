@@ -47,11 +47,11 @@ body{
 
 .picture:hover .image{
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .picture:hover .view{
     opacity: 1;
-
 }
      
 h1{
@@ -96,7 +96,6 @@ h1:hover{
     align-self: center;
     margin:0 5px 0 0;
 }
-
 
 .name{
     color:hsl(0, 0%, 100%);
