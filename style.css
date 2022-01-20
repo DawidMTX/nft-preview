@@ -30,11 +30,13 @@ body{
     background-color: hsl(178, 100%, 50%);  
     border-radius: 10px;
     position: relative;
+   
 }
 
 .image{
     border-radius: 10px;
     width: 100%;  
+    transition: .5s ease;
 }
 .view{
     position: absolute;
@@ -108,7 +110,7 @@ h1:hover{
 }
 .avatar{
     width: 300px;
-    margin: 20px auto;
+    margin: 10px auto;
     display: flex;
     padding-top: 15px;
     border-top: 2px solid hsl(215, 32%, 27%);
@@ -126,4 +128,13 @@ h1:hover{
     align-self: center;
     float: left;
     border: 1px  hsl(0, 0%, 100%);
+}
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 375px){
+    body{
+        width: 375px;
+    }
 }
