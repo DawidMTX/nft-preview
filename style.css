@@ -7,7 +7,7 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 1000px;
+   height: 100vh;
 } 
 #container{
     background-color:  hsl(216, 50%, 16%);
